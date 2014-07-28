@@ -1,0 +1,82 @@
+.formHolder{
+  width: 400px;
+  min-height: 300px;
+  text-align:center;
+}
+
+h2 {
+  display:inline-block;
+}
+
+input {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border:1px solid grey;
+  border-radius: 6px;
+}
+
+.myForm {
+  display: flex;
+  flex-direction:column;
+}
+
+.doubleLine {
+  display:flex;
+  flex-direction: row;
+}
+
+
+.formSlider {
+  -webkit-appearance: none !important;
+  background:#999999;
+  height:1px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.formSlider::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+    background:#00FFFF;
+    height:20px;
+    width:30px;
+  	border-radius: 6px;
+    border:1px solid rgba(0,256,256,0.2);
+}
+
+.formSubmit {
+	display: block; 
+  width:100%; 
+  padding:10px;
+  margin:5px;
+  border: 1px solid rgba(256,256,256,0.5);
+  color:#fff;
+  border-radius: 5px;
+  font-family:inherit;
+  font-weight:bold;
+  font-size:14pt;
+  text-shadow: 2px 2px #555;
+}
+
+.formSubmit[disabled=disabled] {
+	background-color: #999999;
+  border: 1px solid grey;
+  color:#444;
+  text-shadow: none;
+}
+
+.blue {  
+  background-color: #0099FF;
+}
+
+.green {  
+  background-color: #00FF00;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.registerItem {
+  display:none;
+}

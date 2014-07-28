@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Pen</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="formHolder"><h2>Please Sign Up</h2> It's free!
+	<form class="myForm">		
+    <label for="inputSlider" id="sliderLabel">Slide left to register. Right to sign in.</label>
+		<input type="range" name="inputSlider" class="formSlider" min="1" max="31" value="16"><br/>
+		<div class="doubleLine">
+			<input type="text" name="fName" placeholder="First Name" class="registerItem">
+			<input type="text" name="lName" placeholder="Last Name" class="registerItem">
+		</div>
+		<input type="text" name="userName" placeholder="User Name" required>
+		<input type="email" name="emailAdd" placeholder="Email Address" class="registerItem">
+		<div class="doubleLine">
+			<input type="password" name="pass1" id="pass1" placeholder="Password" required>
+			<input type="password" name="pass2" id="pass2" placeholder="Confirm Password" class="registerItem">
+		</div><br/>
+		<div class="doubleLine">
+			<button type="submit" class="formSubmit blue registerButton" disabled="disabled">Register</button>	
+			<button type="submit" class="formSubmit green signinButton" disabled="disabled">Sign In</button>	
+		</div>  	
+	</form>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

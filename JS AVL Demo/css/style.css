@@ -1,0 +1,30 @@
+.node {
+	text-align:center;
+  width:20px;
+  height: 20px;
+  border:2px solid black;
+  border-radius: 20px;
+  padding:2px;
+  position: absolute;
+}
+
+.line {
+  width:50px;
+  height:0px;
+  border: 2px solid black;
+  position: absolute;
+}
+.button {
+  display: block; 
+  width:100px; 
+  padding:10px;
+  margin:5px;
+  background-color: #BADA55;
+  border: 1px solid rgba(256,256,256,0.5);
+  color:#fff;
+  border-radius: 5px;
+  font-family:inherit;
+  font-weight:bold;
+  font-size:14pt;
+  text-shadow: 2px 2px #555;
+}
