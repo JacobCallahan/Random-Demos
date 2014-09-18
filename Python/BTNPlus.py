@@ -45,7 +45,7 @@ class BTNPlus:
             pygame.draw.line(screen, (255,0,0), (self.X, self.Y), (self.rightChild.X, self.rightChild.Y))
             pygame.display.update()
             time.wait(50)
-        pygame.draw.rect(screen, (255,0,0), (self.X,self.Y,3,3))
+        pygame.draw.rect(screen, (0,255,0), (self.X,self.Y,3,3))
 
     def addChild(self, child):
         #add a child node. working
