@@ -1,4 +1,5 @@
 import threading
+#quick demo of how to use a decorator to easily thread out a function
 
 def easyThread(*args):
     def wrapper(func):
