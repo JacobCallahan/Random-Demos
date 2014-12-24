@@ -1,0 +1,10 @@
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\bin\Debug\NeuralNetVisualizer.exe.config
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\bin\Debug\NeuralNetVisualizer.exe
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\bin\Debug\NeuralNetVisualizer.pdb
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.csprojResolveAssemblyReference.cache
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.Properties.Resources.resources
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.csproj.GenerateResource.Cache
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.exe
+c:\users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.pdb
+C:\Users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.SplashScreen.resources
+C:\Users\jake\documents\visual studio 2012\Projects\NeuralNetVisualizer\NeuralNetVisualizer\obj\Debug\NeuralNetVisualizer.frmVisualize.resources
