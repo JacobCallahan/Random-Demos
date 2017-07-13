@@ -1,4 +1,4 @@
-"""This demo shows the concept of how to write one test, 
+"""This demo shows the concept of how to write one test,
    and run it on multiple interfaces.
 """
 import attr
@@ -75,12 +75,12 @@ def run_on(*args):
 
 @run_on('api', 'cli', 'ui')
 def test1(interface):
-    if not interface:
-        print ('No active interface.')
-        return None
-    interface.move_forward()
+    """Example test for multiple and targeted interfaces"""
+    print ('*** Running test on {} ***'.format(interface.__name__))
+
+    API.move_forward()
     interface.move_left(6)
-    interface.move_back(20)
+    API.move_back(20)
     interface.move_right(15)
     interface.move_forward(50)
 
